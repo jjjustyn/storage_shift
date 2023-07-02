@@ -66,7 +66,8 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 header .navbar {
   margin-bottom: 0px;
@@ -90,6 +91,10 @@ header .navbar-default .navbar-nav li a {
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
 }
+/*
+  Green: #337D3E
+  Brown: #694928
+*/
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -120,7 +125,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Rockwell', serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
