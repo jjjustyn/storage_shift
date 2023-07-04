@@ -9,6 +9,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import url(//fonts.googleapis.com/css?family=Rockwell);
 /* var text-decoration */
 /*--
 	Common Css
@@ -66,27 +67,32 @@ a:active {
 --*/
 header {
   background: #fff;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  padding: 10px 0;
 }
 header .navbar {
   margin-bottom: 0px;
   border: 0px;
 }
 header .navbar-brand {
-  padding-top: 5px;
+  padding-top: 0px;
+}
+header .logo {
+  height: 50px;
+  width: auto;
 }
 header .navbar-default {
   background: none;
   border: 0px;
 }
 header .navbar-default .navbar-nav {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #337D3E;
   padding: 10px 26px;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Rockwell', serif;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
