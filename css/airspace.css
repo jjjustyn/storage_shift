@@ -52,11 +52,14 @@ a:active {
 .section-title {
   margin-bottom: 70px;
 }
+
 .section-title h2 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 600;
+  color: #337D3E;
 }
+
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
@@ -191,12 +194,12 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 #service .service-item i {
   font-size: 60px;
-  color: #337D3E;
+  color:  #694928;
 }
 #service .service-item h4 {
   padding-top: 20px;
   margin: 0;
-  color: #694928;
+  color: #337D3E;
 }
 #service .service-item p {
   color: #888;
@@ -236,7 +239,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 30px;
 }
 #call-to-action p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 #call-to-action .btn-call-to-action {
