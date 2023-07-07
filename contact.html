@@ -10,7 +10,7 @@ permalink: /contact/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Drop Us A Note</h1>
+          <h1>Your Move, Your Way</h1>
           <p>Don’t just take our word for it. See for yourself</p>
         </div>
       </div>
@@ -23,24 +23,37 @@ permalink: /contact/
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <form  
+          action="https://formspree.io/f/meqbqewz"
+          method="POST"
+          enctype="multipart/form-data">
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="email" class="form-control" name="email" placeholder="Email Address" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" name = "zip" placeholder="Zip Code" required>
             </div>
-          </form>
+            <div class="form-group">
+              <input type="date" class="form-control" name = "date" placeholder="Date of Service">
+            </div>
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          <div class="form-group-2">
+            <div class="form-group">
+              <input type="tel" class="form-control" placeholder="Phone Number">
+            </div>
+            <label for="upload" class="custom-file-upload">
+              <i class="fa-solid fa-camera"></i> Upload Images of Your Space
+            </label>
+            <input type="file" id="upload" name="upload[]" multiple required style="display: none;">
+        </div>        
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" rows="3" name="message" placeholder="Your Message" required></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
           </form>
